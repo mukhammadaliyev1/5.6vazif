@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(149, 204, 204);
+}
+.todo-wrapper{
+  width: 800px;  
+  margin: 40px auto;
+}
+
+.todo-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: cadetblue;
+}
+#form * {
+padding: 10px;
+ width: 50%;
+ font-size: 20px;border-radius: 10px;
+ border: none;
+}
+#form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+ 
+  
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttons *{
+   padding: 10px;
+   border: 1px solid black; 
+   font-size: 20px;
+   border-radius: 10px;
+   margin-bottom: 30px;
+}
+.buttons button{
+background-color: blue;
+border: none;
+color: white;
+cursor: pointer;
+}
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+   margin-bottom: 20px;  
+border-radius: 0.5px solid black;
+   border-radius: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.text-date{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+.actions{
+    display: flex;
+    margin-right: 10px;
+    gap: 10px;
+}
+.actions *{
+    cursor: pointer;
+}
